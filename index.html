@@ -1,0 +1,347 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+	<meta charset="UTF-8"> 
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0"> 
+	<title>My Portfolio</title> 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+	<link rel="stylesheet" href="style.css"> 
+	
+</head> 
+<body>
+	<!-- Navbar header section -->
+	<header class="header">
+		<nav class="navbar">
+			<div class="logo">
+				<h2 class="logo-heading">Portfolio</h2>
+			</div>
+			<div class="hamburger" id="hamburger">
+				<i class="fas fa-bars hamburger-icon"></i>
+				<i class="fas fa-times cross-icon"></i>
+			</div>
+			<div class="menu">
+				<ul class="menu-list">
+					<li class="menu-list-items">
+						<a class="links" href="#home">
+							Home
+						</a>
+					</li>
+					<li class="menu-list-items">
+						<a class="links" href="#about">
+							About
+						</a>
+					</li>
+					<li class="menu-list-items">
+						<a class="links" href="#portfolio">
+							Projects
+						</a>
+					</li>
+					<li class="menu-list-items">
+						<a class="links" href="#Skills">
+							Skills
+						</a>
+					</li>
+					<li class="menu-list-items">
+						<a class="links" href="#contact">
+							Contact Me
+						</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	
+	<!-- Main hero banner -->
+	<section id="home" class="hero">
+		<div class="intro">
+			<div class="headings">
+				<h3 class="greet-heading">Hello, I'm</h3>
+				<h1 class="my-heading">Tannu dhanda</h1>
+				<h4 class="sub-heading">
+					Web developer
+				</h4>
+			</div>
+			<div class="intro-buttons">
+				<button class="btn common-btn">Hire Me</button>
+				<a href="images/Resume.pdf" class="btn ghost-btn">Get Resume</a>
+			</div>
+		</div>
+	</section>
+	
+	<!-- About Section -->
+	<section id="about" class="about">
+		<div class="about-text">
+			<h1 class="my-heading">About Me</h1>
+			<p class="lead-para">
+				My name is Tannu dhanda. I live in Panipat. I am an expert in Web Researching, Data Entry, Data Extracting, and Data researching. I have been working hard in this field. Currently, I am doing my bachelor of arts from IGNOU.
+			</p>
+			<p>
+				Our exceptional mentors hailing from top colleges & organizations have the ability to guide you on a journey from the humble beginnings of coding to the pinnacle of expertise. Under their guidance watch your skills flourish as we lay the foundation and help you conquer the world of coding.
+			</p>
+		</div>
+		<div class="about-image">
+			<img src="./images/td.jpg" alt="About Image">
+		</div>
+	</section>
+	
+	<!-- Portfolio Section -->
+<section class="portfolio" id="portfolio"> 
+		<div class="portfolio-heading"> 
+			<h1 class="my-heading text-center">Projects</h1> 
+		</div> 
+		<div class="portfolio-content"> 
+			<div class="my-row"> 
+				<div class="my-col"> 
+					<div class="my-card port-card"> 
+						<div class="image"> 
+							<img src="./Images/cd.j.webp" alt="project"> 
+						</div> 
+						<button><a href="https://payal895.github.io/project/" class="small-para blue-text">Tesla cars</a></button>
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					<div class="my-card port-card"> 
+						<div class="image"> 
+							<img src="./Images/port.jpg" alt="project"> 
+						</div> 
+						<button><a href="https://dhandatannu.github.io/creative-cv/" class="small-para blue-text">Digital portfolio</a></button>
+					</div> 
+				</div>
+				<div class="my-col"> 
+					<div class="my-card port-card"> 
+						<div class="image"> 
+							<img src="./Images/pencil.jpg" alt="project"> 
+						</div> 
+						<button><a href="https://dhandatannu.github.io/bootstrap-tannu/" class="small-para blue-text">Stationary</a></button>
+					</div> 
+				</div> 
+			</div> 
+		</div>
+</section>	
+
+<!--professional skills-->
+
+<section id="Skills">
+    <div class="sec1">
+        <div class="container">
+            <h1 class="heading1">Educational <span style="color: white;">Skills</span></h1>
+            <div class="education-container">
+
+                <div class="education-item">
+                    <div class="education-header" onclick="toggleContent('edu1')">ADIT(Advanced Diploma in IT Networking and Cloud Computing)</div>
+                    <div class="education-content" id="edu1">
+                        <p class="degree">ADIT</p>
+                        <p class="school">NSTI Noida</p>
+                        <p class="school">Marks : No Release</p>
+                        <p class="date">2022 - 2024</p>
+                    </div>
+                </div>               
+            
+                <div class="education-item">
+                    <div class="education-header" onclick="toggleContent('edu3')">Intermediate School</div>
+                    <div class="education-content" id="edu3">
+                        <p class="degree">Intermediate School</p>
+                        <p class="school">12th</p>
+                        <p class="school">Himgiri Public school, Panipat</p>
+                        <p class="school">Marks : 87%</p>
+                        <p class="date">2018-2020</p>
+                    </div>
+                </div>
+
+                <div class="education-item">
+                    <div class="education-header" onclick="toggleContent('edu4')">Secondary School</div>
+                    <div class="education-content" id="edu4">
+                        <p class="degree">High School</p>
+                        <p class="school">10th</p>
+                        <p class="school">Himgiri Public school, Panipat</p>
+                        <p class="school">Marks : 74%</p>
+                        <p class="date">2017-2018</p>
+                    </div>
+                </div>
+            </div>                                                                   
+        </div>                
+    </div>
+</section>
+        <!-- Add more skill categories as needed -->
+<section class="Technical">
+		<div class="skills_section">
+			<div class="skills_head">
+				<h2>Technical <span>Skills</span></h2>
+				<p>Here is my skills to represent my Expertise</p>
+			</div>
+	
+			<div class="skills_main">
+				<div class="skill_bar">
+					<div class="info">
+						<p>HTML</p>
+						<P>90%</P>
+					</div>
+					<div class="bar">
+						<span class="html"></span>
+					</div>
+				</div>
+				<div class="skill_bar">
+					<div class="info">
+						<p>CSS</p>
+						<P>85%</P>
+					</div>
+					<div class="bar">
+						<span class="css"></span>
+					</div>
+				</div>
+				<div class="skill_bar">
+					<div class="info">
+						<p>Cloud Computing</p>
+						<P>80%</P>
+					</div>
+					<div class="bar">
+						<span class="sass"></span>
+					</div>
+				</div>
+				<div class="skill_bar">
+					<div class="info">
+						<p>Java Script</p>
+						<P>80%</P>
+					</div>
+					<div class="bar">
+						<span class="js"></span>
+					</div>
+				</div>
+				<div class="skill_bar">
+					<div class="info">
+						<p>MySql</p>
+						<P>75%</P>
+					</div>
+					<div class="bar">
+						<span class="react"></span>
+					</div>
+				</div>
+				<div class="skill_bar">
+					<div class="info">
+						<p>Node js</p>
+						<P>70%</P>
+					</div>
+					<div class="bar">
+						<span class="node"></span>
+					</div>
+				</div>
+				<div class="skill_bar">
+					<div class="info">
+						<p>Express js</p>
+						<P>65%</P>
+					</div>
+					<div class="bar">
+						<span class="express"></span>
+					</div>
+				</div>
+				<div class="skill_bar">
+					<div class="info">
+						<p>Mongo DB</p>
+						<P>60%</P>
+					</div>
+					<div class="bar">
+						<span class="mongo"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+</section>	
+
+	<!-- Contact me section -->
+	<section class="contact" id="contact">
+        <div class="contact-heading">
+            <h1 class="my-heading text-center">Contact Me</h1>
+        </div>
+        <div class="contact-content">
+            <div class="contact-form-container">
+                <h1 class="greet-heading">Get In Touch</h1>
+                <form class="contact-form">
+                    <input class="form-controls" type="text" placeholder="Your Name">
+                    <input class="form-controls" type="text" placeholder="Your Email">
+                    <input class="form-controls" type="text" placeholder="Your Phone">
+                    <textarea class="form-controls" placeholder="Write your message" name="message" id="" cols="30" rows="10"></textarea>
+                    <input class="form-btn btn common-btn" type="submit" value="Send Message">
+                </form>
+            </div>
+            <div class="contact-details">
+                <h1 class="greet-heading">My Contact Details</h1>
+                <div class="details">
+                    <h5 class="contact-heading">EMAIL</h5>
+                    <p class="contact-text">tannudhanda04@gmail.com</p>
+                </div>
+                <div class="details">
+                    <h5 class="contact-heading">PHONE</h5>
+                    <p class="contact-text">+91 897766555</p>
+                </div>
+                <div class="details">
+                    <h5 class="contact-heading">FAX</h5>
+                    <p class="contact-text">+91 0123456789</p>
+                </div>
+                <div class="details">
+                    <h5 class="contact-heading">ADDRESS</h5>
+                    <p class="contact-text">Panipat, Haryana</p>
+                    <p>Sector-18, house no.875</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+	<!-- Footer section -->
+	<footer class="footer"> 
+		<div class="footer-content text-center"> 
+			
+			<div class="social-links"> 
+				<div class="footer-menu"> 
+					<ul class="footer-menu-list"> 
+						<li class="footer-list-items"> 
+							<a class="footer-links" href="#"> 
+								<i class="fab fa-facebook-f"></i> 
+							</a> 
+						</li> 
+						<li class="footer-list-items"> 
+							<a class="footer-links" href="https://x.com/tannudhanda1?t=82By6xQIwLTRXGv0VxplYg&s=08"> 
+								<i class="fab fa-twitter"></i> 
+							</a> 
+						</li> 
+						<li class="footer-list-items"> 
+							<a class="footer-links" href="#"> 
+								<i class="fab fa-instagram"></i> 
+							</a> 
+						</li> 
+						<li class="footer-list-items"> 
+							<a class="footer-links" href="https://www.linkedin.com/in/tannu-dhanda-00b78b229?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"> 
+								<i class="fab fa-linkedin-in"></i> 
+							</a> 
+						</li> 
+					</ul> 
+				</div> 
+			</div> 
+			<h4> 
+				tannudhanda © 2024
+			</h4> 
+		</div> 
+	</footer> 
+
+	<script src= 
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+		integrity= 
+"sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"> 
+	</script> 
+	<script src="script.js"></script> 
+</body> 
+<script>
+	window.watsonAssistantChatOptions = {
+	  integrationID: "e46effaa-6799-4263-875b-96c34bab445f", // The ID of this integration.
+	  region: "eu-gb", // The region your integration is hosted in.
+	  serviceInstanceID: "82d9dfe0-fe41-4f79-9ced-147d7d65a0e7", // The ID of your service instance.
+	  onLoad: async (instance) => { await instance.render(); }
+	};
+	setTimeout(function(){
+	  const t=document.createElement('script');
+	  t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+	  document.head.appendChild(t);
+	});
+  </script>
+</html>
